@@ -1,0 +1,14 @@
+{
+  "name": "@desco/get-quotes-content",
+  "version": "1.0.0",
+  "description": "Returns the contents in quotation marks of a string",
+  "author": "Rafael A. R. Dias <contato@diasrafael.com.br>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/descodifica/sql-inline.git"
+  },
+  "private": false,
+  "license": "ISC",
+  "dependencies": {
+  }
+}
