@@ -4,6 +4,8 @@ module.exports = txt => {
     let quote
 
     for (pos in txt) {
+        pos = parseInt(pos)
+
         const char = txt[pos]
 
         if ([ '"', "'", ].indexOf(char) !== -1 && !quote) {
@@ -11,7 +13,7 @@ module.exports = txt => {
             init = pos
         }
         else if (quote === char && txt[pos - 1] !== '\\') {
-            strings.push(txt.slice(parseInt(init) + 1, pos))
+            strings.push(txt.slice(init, pos + 1))
 
             init = undefined
             quote = undefined
