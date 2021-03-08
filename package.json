@@ -1,6 +1,6 @@
 {
   "name": "@desco/get-quotes-content",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "description": "Returns the contents in quotation marks of a string",
   "author": "Rafael A. R. Dias <eu@diasrafael.com.br>",
   "repository": {

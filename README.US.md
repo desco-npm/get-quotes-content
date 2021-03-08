@@ -13,7 +13,7 @@
       <br /><br />
       <div align="center">
         <img alt="MIT License" src="https://img.shields.io/static/v1?label=License&message=MIT&color=green&style=for-the-badge">
-        <img alt="Version 1.2.1" src="https://img.shields.io/static/v1?label=Version&message=1.2.1&color=blue&style=for-the-badge">
+        <img alt="Version 1.2.2" src="https://img.shields.io/static/v1?label=Version&message=1.2.2&color=blue&style=for-the-badge">
       </div>
       <h4 align="center"> 
         🚀 Ready to use! 🚀
