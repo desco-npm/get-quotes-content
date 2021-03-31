@@ -1,6 +1,6 @@
 <div align="right">
   <a href="README.md">
-    <img alt="Ler em Portugês do Brasil" src="https://img.shields.io/static/v1?label=&message=🇧🇷 Ler em Português do Brasil&color=green&style=for-the-badge" />
+    <img alt="Ler em Portugês do Brasil" src="https://img.shields.io/static/v1?label=&message=Ler+em+Portugu%C3%AAs+do+Brasil&color=green&style=for-the-badge" />
   </a>
 </div>
 
@@ -30,9 +30,9 @@
 
 ## 📋 Table of Contents
 
-* [⚙️ Installation](#Installation)
-* [📦 Import](#Import)
-* [📚 How to use](#How-to-use)
+- [⚙️ Installation](#Installation)
+- [📦 Import](#Import)
+- [📚 How to use](#How-to-use)
 
 ---
 
@@ -55,7 +55,7 @@ npm install --save @desco/get-quotes-content
 ### Node
 
 ```js
-const getQuotesContent = require('@desco/get-quotes-content')
+const getQuotesContent = require("@desco/get-quotes-content");
 ```
 
 ### Browse
@@ -71,17 +71,19 @@ import getQuotesContent from @desco/get-quotes-content'
 ## 📚 How to use
 
 ```js
-const quotes = getQuotesContent('Your group is "Constant", within the "ShadowLand" world')
+const quotes = getQuotesContent(
+  'Your group is "Constant", within the "ShadowLand" world'
+);
 
-console.log(quotes) // [ 'Constant', 'ShadowLand', ]
+console.log(quotes); // [ 'Constant', 'ShadowLand', ]
 ```
 
 ### Parameters
 
-| Name | Type | Standard | Description |
-|---|---|---|---
-| txt | String | - | The text from which to extract the quotes |
-| returnWithQuotes | Boolean | false | Whether the values are to be returned along with their quotation marks |
+| Name             | Type    | Standard | Description                                                            |
+| ---------------- | ------- | -------- | ---------------------------------------------------------------------- |
+| txt              | String  | -        | The text from which to extract the quotes                              |
+| returnWithQuotes | Boolean | false    | Whether the values are to be returned along with their quotation marks |
 
 ---
 
@@ -104,10 +106,10 @@ console.log(quotes) // [ 'Constant', 'ShadowLand', ]
         <img alt="Facebook @eudiasrafael" src="https://img.shields.io/static/v1?label=Facebook&message=@eudiasrafael&color=blue&logo=facebook&style=for-the-badge">
       </a>
       <a href="https://github.com/descodifica" target="_blank">
-        <img alt="GitHub Overview @descodifica" src="https://img.shields.io/static/v1?label=GitHub Overview&message=@descodifica&color=black&logo=github&style=for-the-badge">
+        <img alt="GitHub Overview @descodifica" src="https://img.shields.io/static/v1?label=GitHub+Overview&message=@descodifica&color=black&logo=github&style=for-the-badge">
       </a>
       <a href="https://github.com/desco-npm" target="_blank">
-        <img alt="GitHub NPM @desco-npm" src="https://img.shields.io/static/v1?label=GitHub NPM&message=@desco-npm&color=black&logo=github&style=for-the-badge">
+        <img alt="GitHub NPM @desco-npm" src="https://img.shields.io/static/v1?label=GitHub+NPM&message=@desco-npm&color=black&logo=github&style=for-the-badge">
       </a>
       <a href="https://www.npmjs.com/org/desco" target="_blank">
         <img alt="NPM @desco" src="https://img.shields.io/static/v1?label=NPM&message=@desco&color=red&logo=npm&style=for-the-badge">
